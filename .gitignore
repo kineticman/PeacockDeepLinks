@@ -1,4 +1,4 @@
-# Environment
+# Environment files
 .env
 
 # Python
@@ -7,15 +7,35 @@ __pycache__/
 *$py.class
 *.so
 .Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Data
-data/
-*.db
-*.xml
-*.m3u
+# Data files (keep directory, ignore contents except .gitkeep)
+data/*.db
+data/*.xml
+data/*.m3u
+data/*.sqlite
+data/*.sqlite3
+
+# But keep the .gitkeep file
+!data/.gitkeep
 
 # Docker
 .docker/
+docker-compose.override.yml
 
 # IDE
 .vscode/
@@ -23,10 +43,28 @@ data/
 *.swp
 *.swo
 *~
+.project
+.pydevproject
 
 # OS
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Test files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
 
 # Devtools
 devtools/
