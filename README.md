@@ -215,6 +215,10 @@ PEACOCK_PADDING_MINUTES=45            # Event padding for overtime
 # Channel Numbers
 PEACOCK_LANE_START_CH=9000            # Starting channel number
 
+# Optional: Channels-4-Chrome (CH4C) Bridge
+CH4C_HOST=127.0.0.1                   # CH4C server IP (default: 127.0.0.1)
+CH4C_PORT=2442                        # CH4C server port (default: 2442)
+
 # Refresh Schedule (cron format)
 PEACOCK_REFRESH_CRON=15 3 * * *       # Daily at 3:15 AM UTC
 ```

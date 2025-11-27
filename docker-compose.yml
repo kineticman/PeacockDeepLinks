@@ -35,6 +35,10 @@ services:
       # API configuration
       - PEACOCK_SLUG=${PEACOCK_SLUG:-/sports/live-and-upcoming}
       
+      # Optional: Channels-4-Chrome (CH4C) bridge for http:// playlists
+      - CH4C_HOST=${CH4C_HOST:-127.0.0.1}
+      - CH4C_PORT=${CH4C_PORT:-2442}
+      
       # Schedule (cron format: minute hour day month day_of_week)
       # Default: 3:15 AM UTC daily
       - PEACOCK_REFRESH_CRON=${PEACOCK_REFRESH_CRON:-15 3 * * *}

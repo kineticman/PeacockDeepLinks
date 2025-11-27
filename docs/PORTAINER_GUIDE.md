@@ -66,6 +66,11 @@ services:
       # API configuration
       - PEACOCK_SLUG=/sports/live-and-upcoming
       
+      # Optional: Channels-4-Chrome (CH4C) bridge for http:// playlists
+      # Uncomment and configure if using CH4C
+      # - CH4C_HOST=192.168.86.72
+      # - CH4C_PORT=2442
+      
       # Schedule (3:15 AM daily)
       - PEACOCK_REFRESH_CRON=15 3 * * *
       
@@ -199,6 +204,8 @@ If you prefer more control or can't use stacks.
    PEACOCK_LANE_START_CH         9000
    PEACOCK_SLUG                  /sports/live-and-upcoming
    PEACOCK_REFRESH_CRON          15 3 * * *
+   CH4C_HOST                     127.0.0.1
+   CH4C_PORT                     2442
    TZ                            UTC
    ```
 
