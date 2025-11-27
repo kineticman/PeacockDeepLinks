@@ -2,8 +2,6 @@
 
 Automated tool that scrapes Peacock’s sports schedule and builds virtual channels (XMLTV + M3U) for use with Channels DVR, ADBTuner, Chrome Capture, Plex, Emby, and other IPTV players.
 
-> Previously: Automated scraper that creates virtual TV channels from Peacock TV sports content with XMLTV EPG and M3U playlists. Perfect for integration with DVR applications like Channels DVR, Plex, or Emby.
-
 ## ✨ Features
 
 - 🎮 **Lane-Based Mode** - 10-20 persistent channels with rotating sports content
