@@ -1,0 +1,2 @@
+# This file ensures the /data directory exists in the repository
+# The actual data files (*.db, *.xml, *.m3u) are gitignored

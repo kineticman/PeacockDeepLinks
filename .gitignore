@@ -23,15 +23,12 @@ wheels/
 .installed.cfg
 *.egg
 
-# Data files (keep directory, ignore contents except .gitkeep)
-data/*.db
-data/*.xml
-data/*.m3u
-data/*.sqlite
-data/*.sqlite3
+# Data & output directories (keep directory, ignore contents except .gitkeep)
+data/*
+!/data/.gitkeep
 
-# But keep the .gitkeep file
-!data/.gitkeep
+out/*
+!/out/.gitkeep
 
 # Docker
 .docker/
